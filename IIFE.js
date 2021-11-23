@@ -1,4 +1,4 @@
 ;
 (function () {
-    console.log(':função que é chamada automaticamente IIFE')
+    console.log('função que é chamada automaticamente IIFE')
 })();
