@@ -1,0 +1,4 @@
+
+
+const array = []
+const objetos = {}
