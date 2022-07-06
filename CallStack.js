@@ -17,4 +17,4 @@ function pessoa() {
 
 pessoa()
 
-// é uma pilha de chamadas que utiliza o método LIFO para execução
+// é uma pilha de chamadas que utiliza o método LIFO para execução, podendo armazenar em sua memoria dados primitivos
