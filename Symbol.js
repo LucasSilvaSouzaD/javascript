@@ -1,3 +1,4 @@
+
 const assert = require('assert')
 
 // keys
@@ -15,4 +16,5 @@ assert.deepStrictEqual(user[uniqueKey], 'value for Symbol')
 
 // díficil de pegar, mas o dado não é secreto. 
 assert.deepStrictEqual(Object.getOwnPropertySymbols(user)[0], uniqueKey)
+
 
