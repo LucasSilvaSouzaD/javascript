@@ -9,6 +9,6 @@ async function *table() {
 
 ;(async () => {
     for await (const tab of table()) {
-        console.log("items", table)
+        console.log("items", tab)
     }
 })()
