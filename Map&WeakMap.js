@@ -12,6 +12,7 @@ objectMap
 const objectMapConstructor = new Map([
     [1, {nome: 'lucas'}],
 ])
+// Map(1) { '1' => { nome: 'lucas' } }
 
 for (const item of objectMap) {
     assert.deepStrictEqual(item[0], '1')
