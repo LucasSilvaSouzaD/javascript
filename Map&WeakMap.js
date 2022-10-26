@@ -35,3 +35,18 @@ objectMap.clear()
 
 ////////////////////////////////////////// --------WeakMap-------- //////////////////////////////////////////
 
+// só objetos como chave -> referência de endereço
+// MAS não é iterável
+
+// é mais leve
+
+const weakMap = new WeakMap()
+const hero = {name: 'flash'}
+
+weakMap.set(hero)
+weakMap.has(hero)
+weakMap.get(hero)
+weakMap.delete(hero)
+
+
+
