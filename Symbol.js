@@ -33,7 +33,7 @@ const obj = {
         }
     })
 }
-
+console.log([...obj])
 assert.deepStrictEqual([...obj], ['a', 'b', 'c'])
 
 const kItems = Symbol("kItems")
