@@ -13,6 +13,7 @@ const promiseOne = new Promise(function (resolve, reject) {
     resolve(organizingStudents)
 })
 
+// teste
 const promiseTwo = new Promise(function (resolve, reject) {
     const reduceStudents = students.reduce((acc, student) => acc)
     resolve(reduceStudents)
